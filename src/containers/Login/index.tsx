@@ -1,18 +1,12 @@
-import requests from "@/utils/requests";
-import { useEffect } from "react";
+import "./index.less"
 
 const Login = () => {
 
-    useEffect(() => {
-        requests.post("/users/login", {
-            id: 123
-        }).catch(error => {
-            console.log("error: ", error)
-        })
-    }, [])
-    return (
-        <div>Login</div>
-    )
+	return (
+			<div className="login">
+
+			</div>
+	)
 }
 
 export default Login;
