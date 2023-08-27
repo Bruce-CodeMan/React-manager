@@ -4,7 +4,7 @@ import styles from "./index.module.less"
 
 const Login = () => {
 
-	const onFinish = () => {
+	const onFinish = (values: any) => {
 
 	}
 
